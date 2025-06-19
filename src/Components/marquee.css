@@ -1,0 +1,33 @@
+.marquee-track {
+  display: flex;
+  gap: 2.5rem; /* like Tailwind gap-10 */
+  width: max-content;
+  animation: scrollX 30s linear infinite;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.client-logo {
+  height: 4rem;
+  width: 20rem; /* matches w-80 */
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.client-logo:hover {
+  filter: grayscale(0%);
+}
+
+@keyframes scrollX {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

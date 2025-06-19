@@ -8,9 +8,12 @@ const Footor = () => {
         <div>
           <h2 className="text-xl font-semibold mb-3">Contact Us</h2>
           <p className="text-sm leading-relaxed">
-            #130 Plaza 289, First Floor,<br />
-            Q Block, Commercial Lane,<br />
-            Phase 2, DHA, Lahore.
+            #130 Plaza 289, First Floor,
+            <br />
+            Q Block, Commercial Lane,
+            <br />
+            Phase 2, DHA, Lahore. <br />
+            2410 San Ramon Valley Blvd #130 San Ramon, CA 94583 United States
           </p>
           <p className="mt-3 text-sm">
             WhatsApp:{" "}
@@ -28,16 +31,34 @@ const Footor = () => {
         {/* Navigation */}
         <div className="flex flex-col gap-2 text-center">
           <h2 className="text-3xl font-semibold mb-3">Quick Links</h2>
-          <a onClick={() => window.scrollTo({top:0, behavior:"smooth"})} className="hover:text-gray-300 cursor-pointer">Home</a>
-          <a href="#about" className="hover:text-gray-300">About</a>
-          <a href="#services" className="hover:text-gray-300">Services</a>
-          <a href="#clients" className="hover:text-gray-300">Clients</a>
-          <a href="#team" className="hover:text-gray-300">Team</a>
-          <a href="#contact" className="hover:text-gray-300">Contact</a>
+          <a
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="hover:text-gray-300 cursor-pointer"
+          >
+            Home
+          </a>
+          <a href="#about" className="hover:text-gray-300">
+            About
+          </a>
+          <a href="#services" className="hover:text-gray-300">
+            Services
+          </a>
+          <a href="#clients" className="hover:text-gray-300">
+            Clients
+          </a>
+          <a href="#team" className="hover:text-gray-300">
+            Team
+          </a>
+          <a href="#contact" className="hover:text-gray-300">
+            Contact
+          </a>
         </div>
 
-          <img src={logotext} alt="Company Logo" className=" w-70 object-contain hidden md:block " />
-       
+        <img
+          src={logotext}
+          alt="Company Logo"
+          className=" w-70 object-contain hidden md:block "
+        />
       </div>
 
       {/* Bottom Copyright */}

@@ -8,14 +8,15 @@ const Footor = () => {
         <div>
           <h2 className="text-2xl font-semibold mb-3">Our Locations</h2>
           <p className="text-sm leading-relaxed">
+            <h1 className="text-xl font-semibold my-3">USA Address:</h1>
+            2410 San Ramon Valley Blvd #130 San Ramon <br /> CA 94583
+            United States
             <h1 className="text-xl font-semibold my-3">Pakistan's Address:</h1>
             #130 Plaza 289, First Floor,
             <br />
             Q Block, Commercial Lane,
             <br />
             Phase 2, DHA, Lahore. <br />
-            <h1 className="text-xl font-semibold my-3">USA Address:</h1>
-            2410 San Ramon Valley Blvd #130 San Ramon <br /> CA 94583 United States
           </p>
         </div>
         <img
@@ -45,7 +46,6 @@ const Footor = () => {
       {/* Bottom Copyright */}
       <div className="text-center text-sm text-gray-400 mt-8">
         <div className="flex justify-evenly flex-wrap mb-4 gap-2 text-center">
-        
           <a
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="hover:text-gray-300 text-xl underline cursor-pointer"

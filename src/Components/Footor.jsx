@@ -12,7 +12,7 @@ const Footor = () => {
             2410 San Ramon Valley Blvd #130 San Ramon <br /> CA 94583
             United States
             <h1 className="text-xl font-semibold my-3">Pakistan's Address:</h1>
-            #130 Plaza 289, First Floor,
+            Plaza 289, First Floor,
             <br />
             Q Block, Commercial Lane,
             <br />

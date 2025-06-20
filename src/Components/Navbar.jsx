@@ -33,7 +33,7 @@ const Navbar = () => {
 
   const handleHover = (index) => {
     gsap.to(iconRefs.current[index], {
-      scale: 1.5,
+      scale: 1.75,
       y: -5,
       opacity: 1,
       duration: 0.2,
@@ -119,7 +119,7 @@ const Navbar = () => {
         {navItems.map((item, index) => (
           <li
             key={index}
-            className="flex flex-col items-center group cursor-pointer relative"
+            className="flex flex-col items-center  group cursor-pointer relative"
             onMouseEnter={() => handleHover(index)}
             onMouseLeave={() => handleLeave(index)}
             onClick={(e) => handleNavigation(e, item.link)}
@@ -133,7 +133,7 @@ const Navbar = () => {
               {item.icon}
             </div>
             <span
-              className={`text-sm mt-1 group-hover:font-bold transition-all duration-300 ${
+              className={`text-[18px] mt-1 group-hover:font-bold transition-all duration-300 ${
                 isHomePage ? 'text-[#003566]' : 'text-white'
               }`}
             >

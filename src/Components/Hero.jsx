@@ -60,13 +60,13 @@ const Hero = () => {
         <div>
           <h1
             ref={headingRef}
-            className="text-[2.5rem] md:text-[4rem] font-bold leading-tight"
+            className="text-[3rem] md:text-[4rem] font-bold leading-tight"
           >
-            <span className="text-[3rem] md:text-[4.5rem] font-extrabold text-[#003566] block">
-              Don’t Just Build Websites
+            <span className="text-[3rem] md:text-[4rem] font-extrabold text-[#003566] block">
+            Powering Business Growth with Code,
             </span>
-            <span className="text-[3rem] md:text-[4.5rem] font-extrabold text-[#003566] block">
-              We Build Businesses
+            <span className="text-[3rem] md:text-[4rem] font-extrabold text-[#003566] block">
+     Creativity, and Clarity.
             </span>
           </h1>
           <p ref={paragraphRef} className="text-lg italic ml-2 mt-2">

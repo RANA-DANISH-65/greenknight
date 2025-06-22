@@ -5,6 +5,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import ceo from "../assets/ceo.png";
 import coo from "../assets/coo.jpg";
 import director from "../assets/director.png";
+import projectHead from "../assets/projectHead.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -44,10 +45,11 @@ const Team = () => {
     { img: ceo, name: "Shakir Ali", role: "CEO & Founder" },
     { img: coo, name: "Mughees Raza", role: "COO & Co-Founder" },
     { img: director, name: "Naeem Bhukari", role: "Director Operations" },
+    { img: projectHead, name: "Ali Raza", role: "Project Head" },
   ];
 
   return (
-    <div id="team" ref={sectionRef} className="lg:mt-20 px-10 py-20 bg-gray-50">
+    <div id="team" ref={sectionRef} className="lg:mt-10 px-10 py-20 bg-gray-50">
       <div
         ref={headingRef}
         className="text-center mb-12 opacity-0 translate-y-10 transition-all"

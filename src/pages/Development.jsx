@@ -60,8 +60,8 @@ const Development = () => {
   ];
 
   return (
-    <div className="mt-20">
-      <div className="bg-gray-900 w-full lg:relative min-h-screen flex flex-col items-center justify-center text-center px-4 py-16 md:py-20 lg:py-28">
+    <div>
+      <div className="bg-gray-900 w-full lg:relative min-h-screen flex flex-col items-center justify-center text-center  py-25 ">
         {/* Title */}
         <h1 className="text-white font-bold   text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-tight mb-10">
           Website <br /> App Development
@@ -71,20 +71,20 @@ const Development = () => {
         <img
           src={appimg}
           alt="App Development"
-          className="w-[90%] sm:w-[80%] md:w-[60%] lg:absolute lg:-bottom-[30%] lg:w-[90vw] lg:max-w-[1100px] h-auto max-h-[50vh] object-contain"
+          className="w-[90%] sm:w-[80%] md:w-[60%] lg:w-[70%] xl:w-[60%] max-w-[800px] h-auto object-contain mt-10"
         />
       </div>
 
-      <div className="mt-60 text-center flex flex-col items-center gap-4">
+      <div className="mt-10 text-center flex flex-col items-center gap-4">
         <h1 className="text-5xl font-bold text-gray-900">Web Development</h1>
         <p className="text-lg text-600 w-[50%]">
           From responsive business websites to complex web portals, we create
           custom web solutions that are fast, secure, and aligned with your
           brand. Whether it's frontend, back-end, or full-stack, we handle it
-          all
+          all.
         </p>
       </div>
-      <div className="flex mt-20  mb-10 flex-wrap justify-center gap-6">
+      <div className="flex mt-20 mb-10 flex-wrap justify-center gap-6">
         {data.map((section, index) => (
           <div
             key={index}
@@ -93,9 +93,11 @@ const Development = () => {
             <h3 className="text-xl font-bold text-white mb-3">
               {section.title}
             </h3>
-            <ul className="list-disc list-inside text-gray-600">
+            <ul className="text-white space-y-1 pl-5 list-disc">
               {section.items.map((item, idx) => (
-                <li key={idx}>{item}</li>
+                <li key={idx} className="text-sm leading-snug">
+                  {item}
+                </li>
               ))}
             </ul>
           </div>
@@ -116,9 +118,11 @@ const Development = () => {
                 <h3 className="text-xl font-bold text-white mb-3">
                   {section.title}
                 </h3>
-                <ul className="list-disc list-inside text-gray-400">
+                <ul className="text-white space-y-1 pl-5 list-disc">
                   {section.items.map((item, idx) => (
-                    <li key={idx}>{item}</li>
+                    <li key={idx} className="text-sm text-left leading-snug">
+                      {item}
+                    </li>
                   ))}
                 </ul>
               </div>

@@ -27,6 +27,11 @@ const Marketing = () => {
       description:
         "Experienced in Facebook, Instagram, LinkedIn & TikTok marketing.",
     },
+    {
+      title: "Brand Voice & Visual Identity",
+      description:
+        "Ensure consistency in tone, style, and visuals across all social platforms to strengthen brand recognition.",
+    },
   ];
   const services2 = [
     {
@@ -53,42 +58,59 @@ const Marketing = () => {
       description:
         "Stay updated with live campaign metrics and actionable insights.",
     },
+    {
+      title: "Retargeting Campaigns",
+      description:
+        "Re-engage past visitors and convert interested users with precise retargeting strategies.",
+    },
   ];
-   const seoServices = [
+  const seoServices = [
     {
       title: "Keyword Research & Competitor Analysis",
-      description: "Uncover high-ranking opportunities and evaluate competition to build a strong SEO foundation.",
+      description:
+        "Uncover high-ranking opportunities and evaluate competition to build a strong SEO foundation.",
     },
     {
       title: "On-page Optimization",
-      description: "Enhance meta tags, content, and site structure for better crawlability and ranking.",
+      description:
+        "Enhance meta tags, content, and site structure for better crawlability and ranking.",
     },
     {
       title: "Link Building & Outreach",
-      description: "Earn authority and trust with ethical backlinks and strategic partnerships.",
+      description:
+        "Earn authority and trust with ethical backlinks and strategic partnerships.",
     },
     {
       title: "Google Tools Integration",
-      description: "Monitor and measure performance using Google Search Console & Analytics.",
+      description:
+        "Monitor and measure performance using Google Search Console & Analytics.",
     },
     {
       title: "Local & Global SEO Strategies",
-      description: "Target local listings or scale internationally with geo-optimized campaigns.",
+      description:
+        "Target local listings or scale internationally with geo-optimized campaigns.",
+    },
+    {
+      title: "Technical SEO Audits",
+      description:
+        "Identify and fix backend issues like crawl errors, site speed, and mobile-friendliness that impact rankings.",
     },
   ];
   return (
-    <div className="mt-20">
-      <div className="bg-gray-900 w-full lg:relative min-h-screen flex flex-col items-center justify-center text-center px-4 py-16 md:py-20 lg:py-28">
-        <h1 className="text-white font-bold   text-7xl md:text-8xl lg:text-9xl xl:text-8xl leading-tight mb-10">
-          Digital <br /> Marketing
+    <div>
+      <div className="bg-gray-900 w-full min-h-screen flex flex-col items-center justify-center text-center px-4 py-16 md:py-20 lg:py-28">
+        <h1 className="text-white font-bold text-7xl md:text-8xl lg:text-9xl xl:text-8xl leading-tight mb-10">
+          Digital Marketing
         </h1>
+
         <img
           src={marketingImg}
-          alt=""
-          className="w-[90%] sm:w-[80%] md:w-[60%] md:mt-10 mt-10 lg:absolute lg:-bottom-[30%] lg:w-[90vw] lg:max-w-[1100px] h-auto max-h-[50vh] object-contain"
+          alt="Digital Marketing"
+          className="w-[90%] sm:w-[80%] md:w-[60%] lg:w-[70%] xl:w-[60%] max-w-[1000px] h-auto object-contain"
         />
       </div>
-      <div className="mt-60 text-center flex flex-col items-center gap-4">
+
+      <div className="mt-10 text-center flex flex-col items-center gap-4">
         <h1 className="text-5xl font-bold text-gray-900">
           Social Media Marketing
         </h1>
@@ -106,7 +128,7 @@ const Marketing = () => {
             key={index}
             className="bg-gray-900 shadow-lg rounded-xl p-6 hover:shadow-2xl transition-all"
           >
-            <h3 className="text-xl font-semibold text-gray-600 mb-2">
+            <h3 className="text-xl font-semibold text-white mb-2">
               {service.title}
             </h3>
             <p className="text-gray-400">{service.description}</p>
@@ -130,7 +152,7 @@ const Marketing = () => {
             key={index}
             className="bg-gray-900 shadow-lg rounded-xl p-6 hover:shadow-2xl transition-all"
           >
-            <h3 className="text-xl font-semibold text-gray-600 mb-2">
+            <h3 className="text-xl font-semibold text-white mb-2">
               {service.title}
             </h3>
             <p className="text-gray-400">{service.description}</p>
@@ -154,7 +176,7 @@ const Marketing = () => {
             key={index}
             className="bg-gray-900 shadow-lg rounded-xl p-6 hover:shadow-2xl transition-all"
           >
-            <h3 className="text-xl font-semibold text-gray-600 mb-2">
+            <h3 className="text-xl font-semibold text-white mb-2">
               {service.title}
             </h3>
             <p className="text-gray-400">{service.description}</p>

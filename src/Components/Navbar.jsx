@@ -96,8 +96,8 @@ const Navbar = () => {
   return (
     <div
       className={`px-4 py-3 flex z-10 justify-between items-center shadow-md w-full fixed top-0 left-0 ${
-        isHomePage ? 'bg-white text-[#003566]' : 'bg-gray-900 text-white'
-      }`}
+        isHomePage ? 'bg-white text-[#003566]' : 'bg-gray-900 text-white' 
+      } ${location.pathname=="/ai"?"opacity-50":"opacity-100"}` }
     >
       {/* Logo */}
       <div onClick={(e) => handleNavigation(e, '#home')} className="flex cursor-pointer justify-center items-center gap-2 text-2xl font-extrabold">

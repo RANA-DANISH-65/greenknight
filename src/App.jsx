@@ -7,6 +7,7 @@ import Development from "./pages/Development";
 import Marketing from "./pages/Marketing";
 import Bpo from "./pages/Bop";
 import Accounting from "./pages/Accounting";
+import AI from "./pages/AI";
 
 const App = () => {
  
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/marketing" element={<Marketing />} />
         <Route path="/accounting" element={<Accounting />} />
         <Route path="/bpo" element={<Bpo />} />
+        <Route path="/ai" element={<AI />} />
       </Routes>
      <Footor/>
     </>

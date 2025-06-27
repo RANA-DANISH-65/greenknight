@@ -47,7 +47,7 @@ const Client = () => {
   }, []);
 
   return (
-    <div id="clients" className="py-20 mt-20" ref={containerRef}>
+    <div id="clients" className="py-20 mt-20 scroll-mt-20" ref={containerRef}>
       <div className="text-center mb-10">
         <h1 className="text-6xl font-bold text-gray-800">Our Clients</h1>
         <h3 className="text-lg text-gray-600 mt-2">

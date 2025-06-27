@@ -1,11 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import hero from "../assets/hero.jpg";
-import logo1 from "../assets/logo1.png";
-import logo2 from "../assets/logo2.png";
-import logo3 from "../assets/logo3.png";
-import logo4 from "../assets/logo4.png";
-import logo5 from "../assets/logo5.png";
 import "./hero.css";
 
 const Hero = () => {
@@ -91,22 +86,6 @@ const Hero = () => {
           alt="hero"
           className="max-w-full w-[500px] object-cover"
         />
-      </div>
-
-      {/* Partner Logos */}
-      <div className="mt-16">
-        <ul className="p-4 flex justify-evenly flex-wrap gap-6">
-          {[logo1, logo2, logo3, logo4, logo5].map((logo, i) => (
-            <li key={i}>
-              <img
-                src={logo}
-                alt={`logo${i}`}
-                ref={(el) => (logoRefs.current[i] = el)}
-                className="w-28"
-              />
-            </li>
-          ))}
-        </ul>
       </div>
     </div>
   );

@@ -49,7 +49,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <div id="about" ref={containerRef} className="px-10 md:my-10 lg:my-20 bg-white">
+    <div id="about" ref={containerRef} className="px-10 md:my-10 lg:my-20 bg-white scroll-mt-20">
       <div className="text-center text-gray-800 mb-10">
         <h1 className="text-[3rem] font-extrabold">About Us</h1>
         <h3 className="text-[1.5rem] text-gray-600">Who We Are</h3>
@@ -66,7 +66,7 @@ useEffect(() => {
             outsourcing. From startups to enterprises, our expert teams craft
             digital experiences, streamline operations, and drive real results
             across industries like healthcare, finance, telecom, and e-commerce.
-            With Green Knight, you're not just getting a service—you're gaining
+            With Green Knight, you're not just getting a service,you're gaining
             a strategic partner for lasting success.
           </p>
 
@@ -76,15 +76,15 @@ useEffect(() => {
             className="flex gap-4 text-center flex-wrap justify-center"
           >
             <div className="p-4 bg-gray-900 rounded-xl text-white min-w-[150px]">
-              <h3 className="text-lg font-semibold">Projects <br /> Completed</h3>
+              <h3 className="text-lg font-semibold">Projects  Completed</h3>
               <p className="text-2xl font-bold mt-2">50+</p>
             </div>
             <div className="p-4 bg-gray-900 rounded-xl text-white min-w-[150px]">
-              <h3 className="text-lg font-semibold">International <br /> Clients</h3>
+              <h3 className="text-lg font-semibold">International  Clients</h3>
               <p className="text-2xl font-bold mt-2">20+</p>
             </div>
             <div className="p-4 bg-gray-900 rounded-xl text-white min-w-[150px]">
-              <h3 className="text-lg font-semibold">Client <br /> Satisfaction</h3>
+              <h3 className="text-lg font-semibold">Client  Satisfaction</h3>
               <p className="text-2xl font-bold mt-2">100%</p>
             </div>
           </div>

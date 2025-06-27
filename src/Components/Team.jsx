@@ -12,11 +12,11 @@ const Team = () => {
     { img: ceo, name: "Shakir Ahli", role: "CEO & Founder" },
     { img: coo, name: "Mughees Raza", role: "COO & Co-Founder" },
     { img: director, name: "Naeem Bhukari", role: "Director Operations" },
-    { img: projectHead, name: "Ali Raza", role: "Project Head Manager" },
+    { img: projectHead, name: "Ali Raza", role: "Designation Manager Operations" },
   ];
 
   return (
-    <div id="team"  className=" px-10 py-15 bg-gray-50">
+    <div id="team"  className=" px-10 py-15 bg-gray-50 scroll-mt-20">
       <div
   
         className="text-center mb-12 translate-y-10 transition-all"

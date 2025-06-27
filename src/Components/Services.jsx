@@ -59,7 +59,7 @@ const Services = () => {
   };
 
   return (
-    <div id="services" className="mt-20">
+    <div id="services" className="mt-20 scroll-mt-20">
       <div className="text-center flex flex-col items-center">
         <h1 className="text-6xl font-extrabold text-gray-800">Our Services</h1>
         <h3 className="text-lg w-[50%] mt-2 text-gray-600">

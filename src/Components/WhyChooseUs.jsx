@@ -81,7 +81,7 @@ const WhyChooseUs = () => {
     <div
       ref={sectionRef}
       id="why"
-      className="px-6 md:px-16 py-20 bg-gray-900 text-[#2D3748]"
+      className="px-6 scroll-mt-20 md:px-16 py-20 bg-gray-900 text-[#2D3748]"
     >
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-extrabold text-[#00BFA6]">

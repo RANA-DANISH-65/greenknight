@@ -12,7 +12,7 @@ const Team = () => {
     { img: ceo, name: "Shakir Ahli", role: "CEO & Founder" },
     { img: coo, name: "Mughees Raza", role: "COO & Co-Founder" },
     { img: director, name: "Naeem Bhukari", role: "Director Operations" },
-    { img: projectHead, name: "Ali Raza", role: "Designation Manager Operations" },
+    { img: projectHead, name: "Ali Raza", role: "Manager Operations" },
   ];
 
   return (
